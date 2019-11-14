@@ -1649,20 +1649,22 @@
 			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
+			
 
 			&:after {
 				background-image: url('images/arrow.svg');
-				background-position: center;
+				background-position: top;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 6em;
 				content: '';
 				display: block;
 				height: 1.5em;
 				left: 50%;
-				margin: 0 0 0 -0.75em;
+				margin: 0 0 0 -1.75em;
 				position: absolute;
 				width: 1.5em;
+				margin-bottom: 30px;
 			}
 		}
 
@@ -1679,6 +1681,7 @@
 			left: 0;
 			top: 0;
 			opacity: 0;
+			
 		}
 
 		@include breakpoint('<=small') {

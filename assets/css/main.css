@@ -3370,6 +3370,7 @@ input, select, textarea {
 		top: 0;
 		width: 20em;
 		z-index: 10002;
+		margin-bottom: 20px;
 	}
 
 		#menu ul {
@@ -3398,6 +3399,7 @@ input, select, textarea {
 					outline: 0;
 					text-decoration: none;
 					text-transform: uppercase;
+					
 				}
 
 					@media screen and (max-width: 736px) {
@@ -3685,6 +3687,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
+			margin-bottom: 50px;
 		}
 
 			#banner .more:after {
