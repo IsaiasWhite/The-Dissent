@@ -2681,10 +2681,24 @@ input, select, textarea {
 			width: 40%;
 		}
 
+		/* .spotlight .image1 {
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			width: 40%;
+		} */
+
 			.spotlight .image img {
 				border-radius: 0;
 				width: 100%;
 			}
+
+			/* .spotlight .image1 img {
+				border-radius: 0;
+				width: 100%;
+			} */
 
 		.spotlight .content {
 			padding: 2em 4em 0.1em 4em ;
@@ -2782,6 +2796,11 @@ input, select, textarea {
 
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
+			}
+
+			.spotlight .image {
+				width: 50%;
+				text-align: center !important;
 			}
 
 		}
