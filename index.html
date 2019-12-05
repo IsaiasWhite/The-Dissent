@@ -133,26 +133,32 @@
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
-							<header>
+							<!-- <header>
 								<h2>Poetry from the Author</h2>
 								<p>Click here to read some remarkable poems written by the Author</p>
-							</header>
+								<hr/>
+							</header> -->
+							<header>
+									<h2>Also checkout the exclusive release to Kendre Streeter's new song Change</h2>
+									<p>Click here to listen to this song now</p>
+								</header>
+							
 							<ul class="actions stacked">
-								<li><a href="poem.html" class="button fit primary">Poems</a></li>
-								<!-- <li><a href="#" class="button fit">Learn More</a></li> -->
+								<li><button onclick="playMusic()" class="button fit primary">Play Music</button></li>
+								<li><button onclick="pauseMusic()" class="button fit">Pause</button></li>
 							</ul>
 						</div>
 					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<!-- <ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul> -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribble</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+						</ul>
 						<ul class="copyright">
 							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
@@ -160,6 +166,8 @@
 
 			</div>
 
+		<!-- Audio -->
+		<audio src="/sounds/Change V1 1106.wav"></audio>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -168,6 +176,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				const audio = document.querySelector("audio")
+				
+				function playMusic() {
+					audio.play()
+				}
 
+				function pauseMusic() {
+					audio.pause()
+				}
+			</script>
 	</body>
 </html>
