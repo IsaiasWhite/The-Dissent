@@ -3507,6 +3507,7 @@ input, select, textarea {
 
 					#header h1 a {
 						font-size: 0.8em;
+						
 					}
 
 				}
@@ -3517,8 +3518,38 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
+		
 		}
 
+		.music{
+			width: 600px; 
+			box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+			border-radius: 90px;
+			transform: scale(0.7);
+		}
+		@media screen and (max-width: 736px) {
+			.music {
+				transform: scale(0.5)
+				
+			}
+		}
+
+			@media screen and (max-width: 736px) {
+				.music-section {
+					display: flex;
+					flex-direction: column;
+					width: 60%;
+					align-items: center;
+					align-content: center;
+					margin-left: 5%
+				}
+			}
+		
+
+		.song-text {
+			margin-bottom: 20px;
+		}
+			
 			#header nav > ul {
 				list-style: none;
 				margin: 0;
