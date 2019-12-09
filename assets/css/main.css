@@ -3520,12 +3520,18 @@ input, select, textarea {
 			top: 0;
 		
 		}
+		.music-section {
+			display: flex;
+			flex-flow: column;
+			margin-left: 5%
+		}
 
 		.music{
-			width: 600px; 
+			width: 500px; 
 			box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
 			border-radius: 90px;
 			transform: scale(0.7);
+			
 		}
 		@media screen and (max-width: 736px) {
 			.music {
@@ -3545,11 +3551,6 @@ input, select, textarea {
 				}
 			}
 		
-
-		.song-text {
-			margin-bottom: 20px;
-		}
-			
 			#header nav > ul {
 				list-style: none;
 				margin: 0;
