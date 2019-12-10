@@ -11,15 +11,16 @@
 </head>
 
 <body class="landing is-preload">
-		<div class="music-section">
-			<div>Play the exclusive release to Kendre Streeter's "Change"</div>
-			<audio class="music" src="/sounds/Change V1 1106.wav" controls="controls"></audio>
-		</div>
-		
 	<!-- Page Wrapper -->
 	<div id="page-wrapper">
 
+
 		<!-- Header -->
+		<section class="music-section">
+				<div>Play the exclusive release to Kendre Streeter's "Change"</div>
+				<button class="music" onclick={playMusic()}>Play</button><button class="music"
+					onclick={pauseMusic()}>Pause</button>
+			</section>
 		<header id="header" class="alt">
 			<h1><a href="index.html">The Dissent</a></h1>
 			<nav id="nav">
@@ -44,6 +45,7 @@
 		</header>
 		<!-- Banner -->
 		<section id="banner">
+			
 			<div class="inner">
 				<h2>The Dissent</h2>
 				<p>Greatness among Us</p>
@@ -150,18 +152,12 @@
 	<!-- CTA -->
 	<section id="cta" class="wrapper style4">
 		<div class="inner">
-			<!-- <header>
-								<h2>Poetry from the Author</h2>
-								<p>Click here to read some remarkable poems written by the Author</p>
-								<hr/>
-							</header> -->
 			<header>
-				<h2>Like the song?</h2>
-				<p>Click here to hear more from Kendre Streeter</p>
+				<h2>You can also listen to Kendre Streeter's song on YouTube</h2>
 			</header>
 
 			<ul class="actions stacked">
-				<li><a href="https://www.youtube.com/user/kendrestreeter" class="button fit primary">Learn More</a></li>
+				<li><a href="https://youtu.be/2mq6O1QCKtM" class="button fit primary">Listen</a></li>
 		</div>
 	</section>
 
@@ -183,7 +179,7 @@
 	</div>
 
 	<!-- Audio -->
-
+	<audio src="/sounds/Change V1 1106.wav"></audio>
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>

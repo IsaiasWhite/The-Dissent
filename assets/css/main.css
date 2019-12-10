@@ -3521,22 +3521,26 @@ input, select, textarea {
 		
 		}
 		.music-section {
-			display: flex;
-			flex-flow: column;
-			margin-left: 5%
+			/* display: flex;
+			flex-flow: row; */
+			/* padding-top: 200px; */
+			width: 80%;
+			position: relative;
+			left: 0;
+			top: 0;
+			
 		}
 
 		.music{
-			width: 500px; 
+			width: 300px; 
 			box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
 			border-radius: 90px;
 			transform: scale(0.7);
-			
+			background-color: #6c5ce7;
 		}
 		@media screen and (max-width: 736px) {
 			.music {
-				transform: scale(0.5)
-				
+				transform: scale(0.5);		
 			}
 		}
 
@@ -3738,7 +3742,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
-			margin-bottom: 50px;
+			margin-bottom: 20px;
 		}
 
 			#banner .more:after {
