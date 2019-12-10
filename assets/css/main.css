@@ -3749,7 +3749,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
-			margin-bottom: 20px;
+			margin-bottom: 100px;
 		}
 
 			#banner .more:after {
