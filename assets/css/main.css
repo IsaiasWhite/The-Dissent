@@ -3545,6 +3545,10 @@ input, select, textarea {
 			overflow: hidden;
 			outline: none
 		}
+
+		.musicTitle {
+			margin-left: 5.5%;
+		}
 		@media screen and (max-width: 736px) {
 			.music {
 				transform: scale(0.5);		
