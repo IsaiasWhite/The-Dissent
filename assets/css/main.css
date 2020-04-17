@@ -4087,4 +4087,44 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
-	}
+  }
+  
+  .accordion {
+    /* background-color: #eee !important; */
+    color: #444 !important;
+    cursor: pointer !important;
+    padding: 18px !important;
+    width: 100% !important;
+    border: none !important;
+    text-align: left !important;
+    outline: none !important;
+    font-size: 15px !important;
+    transition: 0.4s !important;
+  }
+  
+  /* .active, .accordion:hover {
+    background-color: #ccc;
+  } */
+  
+  .accordion:after {
+
+    content: '\02795' !important;
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  
+  .active:after {
+    content: "\2796" !important;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
