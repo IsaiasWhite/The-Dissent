@@ -3478,7 +3478,7 @@ input, select, textarea {
 		height: 3em;
 		left: 0;
 		line-height: 3em;
-		position: fixed;
+		position: relative;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
@@ -4127,4 +4127,9 @@ input, select, textarea {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+  }
+
+  .cursive {
+    font-family: sans-serif;
+    font-style: italic;
   }
