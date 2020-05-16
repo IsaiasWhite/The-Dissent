@@ -3470,15 +3470,15 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		/* -moz-transition: background-color 0.2s ease;
+		-moz-transition: background-color 0.2s ease;
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
-		transition: background-color 0.2s ease; */
-		/* background: #6c5ce7; */
-		height: 1em;
+		transition: background-color 0.2s ease; 
+		background: #6c5ce7;
+		height: 3em;
 		left: 0;
 		line-height: 3em;
-		/* position: relative; */
+		position: fixed; 
 		top: 0;
 		width: 100%;
 		z-index: 10000;
