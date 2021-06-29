@@ -140,7 +140,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -3331,7 +3331,6 @@ input, select, textarea {
 				.wrapper.style5 .features li {
 					border-top-color: #dfdfdf;
 				}
-
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3487,6 +3486,10 @@ input, select, textarea {
 		-ms-transform: translateX(0);
 		transform: translateX(0);
 	}
+	.amz {
+		margin: 25px auto;
+	}
+
 
 /* Header */
 
@@ -3849,9 +3852,6 @@ input, select, textarea {
 
 		}
 
-	.amz {
-		margin: 20px auto;
-	}
 
 	body.is-preload #banner h2 {
 		-moz-transform: scale(0.95);
