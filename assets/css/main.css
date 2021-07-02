@@ -284,6 +284,44 @@ input, select, textarea {
 		text-align: right;
 	}
 
+/* Carosuel */
+.container {
+	max-width: 80%;
+}
+
+.art {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.card {
+	max-width: 250px;
+	max-height: 300px;
+	color: #1d242a;
+	margin-top: 15px;
+}
+.card-body {
+	padding: 0;
+}
+
+.card-title {
+	color: #1d242a;
+	display: block !important;
+	margin-bottom: 0;
+}
+
+.caroPic {
+	max-width: 75%;
+	border-radius: 4px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.btn-outline-info {
+	color: #ffffff;
+}
 /* Row */
 
 	.row {
@@ -2724,11 +2762,11 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(0, 0, 0, 0.0075);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0.075);
 		}
 
 		.spotlight:nth-child(3) {
@@ -2763,6 +2801,11 @@ input, select, textarea {
 			background-color: rgba(0, 0, 0, 0.75);
 		}
 
+		.about {
+			text-align: center;
+			margin: 30px auto;
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			.spotlight .image {
@@ -2770,7 +2813,8 @@ input, select, textarea {
 			}
 
 			.spotlight .content {
-				width: 55%;
+				width: 100%;
+				margin: 30px auto;s
 			}
 
 		}
@@ -2811,10 +2855,20 @@ input, select, textarea {
 
 		}
 
+		.first {
+			margin-right: 15px;
+		}
+
+		.d_link {
+			border: 1px solid #ffffff;
+			max-width: 300px;
+			padding: 8px;
+			border-radius: 4px
+		}
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 6em 0 0 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3165,14 +3219,16 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
-			background-color: transparent;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/the-dissent-logo-large.jpg");
+			background-color: #0a90a9;
+			/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/the-dissent-logo-large.jpg");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/the-dissent-logo-large.jpg");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/the-dissent-logo-large.jpg");
-			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/the-dissent-logo-large.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/the-dissent-logo-large.jpg"); */
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
+			text-align: center;
+			padding: 1em;
 		}
 
 		.wrapper.style5 {
@@ -3330,6 +3386,9 @@ input, select, textarea {
 
 				.wrapper.style5 .features li {
 					border-top-color: #dfdfdf;
+				}
+				.btn {
+					margin-top: 15px;
 				}
 			}
 
