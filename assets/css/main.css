@@ -3389,6 +3389,7 @@ input, select, textarea {
 				}
 				.btn {
 					margin-top: 15px;
+
 				}
 			}
 
@@ -3424,6 +3425,16 @@ input, select, textarea {
 		}
 
 /* Page Wrapper + Menu */
+
+.artTitle {
+	font-size: 1.2rem;
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: 0.225em;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+}
 
 	#page-wrapper {
 		-moz-transition: opacity 0.5s ease;
